@@ -31,7 +31,7 @@ Durante a simulação são observados:
 
 ### Figura 1 – Saída do sistema de controle
 
-![Saída do sistema](controle_output.png)
+![Saída do sistema](control_output.png)
 
 *Figura 1. Saída do loop de controle em tempo real. Observa-se a evolução da referência senoidal (ref), da saída do sistema (x), do controle aplicado (u) e o acúmulo de overruns ao longo das iterações.*
 
