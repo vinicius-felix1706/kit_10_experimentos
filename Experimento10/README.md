@@ -23,7 +23,7 @@ Durante a execução, o consumidor calcula a idade dos dados, isto é, o tempo d
 
 ### Figura 1 – Saída do experimento produtor-consumidor
 
-![Saída do experimento](saida_10.png)
+![Saída do experimento](queue_output10.png)
 
 *Figura 1. Saída do programa mostrando os itens produzidos e consumidos, juntamente com a idade dos dados no momento do consumo.*
 
