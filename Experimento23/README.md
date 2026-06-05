@@ -1,4 +1,4 @@
-# Experimento: Simulador de Jitter e Tempo de Resposta - Programação em Tempo Real
+# Experimento: Simulador de Jitter e Tempo de Resposta 
 
 ## Objetivo do experimento
 
