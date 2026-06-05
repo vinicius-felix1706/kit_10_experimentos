@@ -64,6 +64,33 @@ A previsibilidade é fundamental para garantir a segurança e a organização do
 
 ---
 
+## Respostas das perguntas do experimento
+
+### 1. Quais estados são temporizados?
+
+Os estados temporizados são:
+
+- Norte-Sul VERDE
+- Norte-Sul AMARELO
+- Leste-Oeste VERDE
+- Leste-Oeste AMARELO
+
+Cada estado permanece ativo durante um intervalo de tempo previamente configurado. Ao término desse intervalo, o sistema realiza a transição para a próxima fase do ciclo.
+
+### 2. O semáforo é um exemplo de sistema hard, firm ou soft?
+
+Um semáforo é normalmente considerado um sistema de tempo real **hard**.
+
+Isso ocorre porque atrasos excessivos ou falhas na temporização podem comprometer a segurança do trânsito. Em uma implementação real, a sequência e os tempos das fases devem ser respeitados rigorosamente para evitar situações perigosas, como conflitos entre fluxos de veículos.
+
+### 3. O que aconteceria se o período variasse demais?
+
+Se os períodos variassem excessivamente, o comportamento do semáforo deixaria de ser previsível. Motoristas e pedestres não conseguiriam antecipar corretamente as mudanças de estado, aumentando o risco de acidentes, congestionamentos e decisões incorretas no trânsito.
+
+Além disso, variações muito grandes poderiam causar desequilíbrio no fluxo de veículos, deixando algumas vias com tempo insuficiente ou excessivo para passagem.
+
+---
+
 ## Conclusão
 
 O experimento demonstrou o funcionamento de um sistema periódico típico de aplicações de tempo real. A execução previsível das fases e dos intervalos garante que o controle do tráfego ocorra de forma segura e organizada, evidenciando a importância da temporização em sistemas embarcados e de controle.
