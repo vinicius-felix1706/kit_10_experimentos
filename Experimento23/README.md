@@ -39,7 +39,7 @@ Foram realizadas **duas rodadas** com os mesmos parâmetros base, diferenciadas 
 
 #### Figura 1 – Ocupação da CPU e tabela de dados (Rodada 1)
 
-![Ocupação da CPU - Rodada 1](cpu_rodada1.png)
+![Ocupação da CPU - Rodada 1](ocupacao_cpu_rodada1.png)
 
 *Figura 1. Ocupação da CPU ao longo de 150 amostras sem ruído temporal. A carga oscila entre ~30% e ~85%, com média em torno de 60%. A tabela exibe as primeiras amostras com os campos cpu_ocupacao_pct, tempo_exec_ms, jitter_ms, tempo_resposta_ms e deadline_miss.*
 
@@ -65,7 +65,7 @@ Foram realizadas **duas rodadas** com os mesmos parâmetros base, diferenciadas 
 
 #### Figura 4 – Ocupação da CPU e tabela de dados (Rodada 2)
 
-![Ocupação da CPU - Rodada 2](cpu_rodada2.png)
+![Ocupação da CPU - Rodada 2](ocupacao_rodada2.png)
 
 *Figura 4. Ocupação da CPU com ruído temporal de 10% adicionado. A média permanece em 60,1%, mas a variabilidade aumenta visivelmente, com picos chegando a ~80%. O simulador registrou 22 misses em 150 amostras.*
 
@@ -73,7 +73,7 @@ Foram realizadas **duas rodadas** com os mesmos parâmetros base, diferenciadas 
 
 #### Figura 5 – Jitter ao longo do tempo (Rodada 2)
 
-![Jitter - Rodada 2](jitter_rodada2.png)
+![Jitter - Rodada 2](jitter_rodade2.png)
 
 *Figura 5. Jitter na Rodada 2. A amplitude geral é menor que na Rodada 1 (~±7,5 ms), mas há um vale acentuado próximo à amostra 62 (≈ −10 ms), indicando um instante em que a tarefa adiantou consideravelmente. O ruído temporal adicionado introduz desvios sistemáticos localizados.*
 
