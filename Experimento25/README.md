@@ -30,7 +30,7 @@ As duas políticas foram testadas com o mesmo conjunto de tarefas:
 
 ### Figura 1 – Diagrama de Gantt com política RM (Rate Monotonic)
 
-![Diagrama de Gantt — Política RM](gantt_rm.png)
+![Diagrama de Gantt — Política RM](rm.png)
 
 *Figura 1. Diagrama de Gantt gerado com a política Rate Monotonic. As prioridades são fixas e baseadas no período: T1 (maior prioridade) > T2 > T3. Os pontos pretos indicam os releases de cada tarefa. T3 só executa quando T1 e T2 liberam a CPU. Deadline misses = 0.*
 
@@ -38,7 +38,7 @@ As duas políticas foram testadas com o mesmo conjunto de tarefas:
 
 ### Figura 2 – Diagrama de Gantt com política EDF (Earliest Deadline First)
 
-![Diagrama de Gantt — Política EDF](gantt_edf.png)
+![Diagrama de Gantt — Política EDF](edf.png)
 
 *Figura 2. Diagrama de Gantt gerado com a política EDF. As prioridades são dinâmicas: a tarefa com deadline absoluta mais próxima é escolhida a cada instante. Neste conjunto, o padrão de execução coincidiu com o do RM, pois as deadlines são iguais aos períodos. Deadline misses = 0.*
 
