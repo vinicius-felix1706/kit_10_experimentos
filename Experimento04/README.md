@@ -1,4 +1,4 @@
-# Experimento 3 — Sobrecarga de CPU e Impacto Temporal
+# Experimento 3: Sobrecarga de CPU e Impacto Temporal
 
 ## Objetivo
 
